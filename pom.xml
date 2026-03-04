@@ -120,6 +120,7 @@
         <module>engine-cdi</module>
         <module>engine-spring</module>
         <module>engine-rest</module>
+        <module>engine-mcp</module>
 
         <module>webapps</module>
 
@@ -198,6 +199,7 @@
         <module>engine-cdi</module>
         <module>engine-spring</module>
         <module>engine-rest</module>
+        <module>engine-mcp</module>
 
         <module>webapps</module>
 
