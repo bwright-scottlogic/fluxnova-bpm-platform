@@ -3,11 +3,9 @@ package com.fluxnova.scottlogic.mcp.tools;
 import org.finos.fluxnova.bpm.engine.RuntimeService;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
-import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
-@Component
 public class SignalTools {
 
     private final RuntimeService runtimeService;

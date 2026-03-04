@@ -6,12 +6,10 @@ import org.finos.fluxnova.bpm.engine.form.TaskFormData;
 import org.finos.fluxnova.bpm.engine.runtime.ProcessInstance;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
-import org.springframework.stereotype.Component;
 
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@Component
 public class FormTools {
 
     private final FormService formService;

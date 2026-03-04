@@ -5,7 +5,6 @@ import org.finos.fluxnova.bpm.engine.repository.Deployment;
 import org.finos.fluxnova.bpm.engine.repository.ProcessDefinition;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
-import org.springframework.stereotype.Component;
 
 import java.io.ByteArrayInputStream;
 import java.nio.charset.StandardCharsets;
@@ -13,7 +12,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@Component
 public class RepositoryTools {
 
     private final RepositoryService repositoryService;

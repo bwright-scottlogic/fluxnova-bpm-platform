@@ -4,13 +4,11 @@ import org.finos.fluxnova.bpm.engine.TaskService;
 import org.finos.fluxnova.bpm.engine.task.Task;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@Component
 public class TaskTools {
 
     private final TaskService taskService;

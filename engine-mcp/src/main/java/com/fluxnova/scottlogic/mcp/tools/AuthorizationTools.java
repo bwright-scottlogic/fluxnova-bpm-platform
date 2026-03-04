@@ -6,13 +6,11 @@ import org.finos.fluxnova.bpm.engine.authorization.Permissions;
 import org.finos.fluxnova.bpm.engine.authorization.Resources;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.ai.tool.annotation.ToolParam;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@Component
 public class AuthorizationTools {
 
     private final AuthorizationService authorizationService;
